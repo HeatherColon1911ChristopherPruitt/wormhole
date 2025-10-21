@@ -37,3 +37,5 @@ ENV=tilt ts-node ./ts-scripts/relayer/deliveryProvider/upgradeDeliveryProvider.t
 The ./shell directory contains shell scripts which combine commonly chained actions together.
 
 For example, ./shell/deployConfigureTest.sh will deploy the DeliveryProvider, WormholeRelayer, and MockIntegration contracts. Configure them all to point at each other, and then run messageTest to test that everything worked. Note: useLastRun in contracts.json needs to be set to "true" in order for this script to work.
+
+<!-- Auto-update: 2025-10-21T08:46:31.498667 -->
